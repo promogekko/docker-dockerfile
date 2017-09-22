@@ -1,6 +1,6 @@
 import sqlite3
 
-db = sqlite3.connect(r'/test/Chinook_Sqlite.sqlite')
+db = sqlite3.connect(r'/Chinook_Sqlite.sqlite')
 
 # -- row factory
 db.row_factory = sqlite3.Row
